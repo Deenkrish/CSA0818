@@ -1,0 +1,10 @@
+num=int(input("enter the number:"))
+sum=0
+temp=sum
+while temp>0:
+   digit=temp%10
+   sum+=digit**3
+   temp=temp//10
+print("sum of digits:",sum)
+
+
